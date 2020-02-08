@@ -1,4 +1,5 @@
-
+import pandas as pd
+import matplotlib.pyplot as plt
 
 # The original dataset is provided by the Seaborn package >> https://github.com/mwaskom/seaborn-data/blob/master/tips.csv
 # Your job is to plot a PDF and CDF for the fraction column of the tips dataset. This column contains information about what fraction of the total bill is comprised of the tip.
