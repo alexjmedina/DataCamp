@@ -22,8 +22,9 @@ plt.show()
 # Make a list of the column names to be plotted: cols
 cols = ['weight','mpg']
 
+# Pandas Box Plots
 # Generate the box plots
-df[cols].plot(subplots=True)
+df[cols].plot(kind='box', subplots=True)
 
 # Display the plot
 plt.show()
