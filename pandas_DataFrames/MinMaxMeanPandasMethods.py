@@ -1,3 +1,6 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
 # Print the minimum value of the Engineering column
 print(df['Engineering'].min())
 
