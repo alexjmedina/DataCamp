@@ -1,3 +1,6 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
 # A pandas DataFrame df is pre-loaded, which contains the data you need.
 # Create a plot with color='red'
 df.plot(color='red')
