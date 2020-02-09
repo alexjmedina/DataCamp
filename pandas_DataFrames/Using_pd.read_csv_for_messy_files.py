@@ -1,3 +1,6 @@
+# Example of loading CSV File from external file
+# users = pd.read_csv('datasets/users.csv', index_col=0)
+
 # The file name is given to you in the variable file_messy.
 # Read the raw file as-is: df1
 df1 = pd.read_csv(file_messy)
