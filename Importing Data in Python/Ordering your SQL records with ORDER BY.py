@@ -1,4 +1,6 @@
-
+#Importing Packages
+from sqlalchemy import create_engine
+import pandas as pd
 
 # Create engine: engine
 engine = create_engine('sqlite:///Chinook.sqlite')
