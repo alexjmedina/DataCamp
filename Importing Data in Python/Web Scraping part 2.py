@@ -9,7 +9,7 @@ url = 'https://s3.amazonaws.com/assets.datacamp.com/production/course_1606/datas
 df = pd.read_csv(url, sep = ';')
 
 # Print the head of the DataFrame
-print(df.head)
+print(df.head())
 
 # Plot first column of df
 pd.DataFrame.hist(df.ix[:, 0:1])
