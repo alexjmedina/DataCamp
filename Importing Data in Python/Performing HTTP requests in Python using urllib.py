@@ -1,14 +1,17 @@
-# Import package
-import requests
+# Import packages
+from urllib.request import urlopen, Request
 
-# Specify the url: url
+# Specify the url
 url = "http://www.datacamp.com/teach/documentation"
 
-# Packages the request, send the request and catch the response: r
-r = requests.get(url)
+# This packages the request: request
+request = Request(url)
 
-# Extract the response: text
-text = r.text
+# Sends the request and catches the response: response
+response = urlopen(request)
 
-# Print the html
-print(text)
+# Print the datatype of response
+print(type(response))
+
+# Be polite and close the response!
+response.close()
